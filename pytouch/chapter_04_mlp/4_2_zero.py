@@ -39,7 +39,7 @@ num_epochs, lr = 10, 0.1
 
 updater = torch.optim.SGD(params, lr=lr)
 
+# 在交互式窗口运行下面两行代码
 # d2l.train_ch3(net, train_iter, test_iter, loss, num_epochs, updater)
-
 # d2l.predict_ch3(net, test_iter)
 
