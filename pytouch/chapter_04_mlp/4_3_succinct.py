@@ -5,7 +5,7 @@
 import torch
 from torch import nn
 from d2l import torch as d2l
-
+# 此处实现三层感知机
 net = nn.Sequential(nn.Flatten(), nn.Linear(784, 256), 
                     nn.Flatten(), nn.Linear(256, 128), 
                     nn.ReLU(), nn.Linear(128, 10))
